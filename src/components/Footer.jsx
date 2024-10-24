@@ -9,11 +9,11 @@ const Footer = () => {
           <p className="font-semibold text-gray text-xs">
             More ways to shop: {' '}
             <span className="underline text-blue">
-            Find an Apple Store {' '}
+              Find an Apple Store {' '}
             </span>
             or {' '}
             <span className="underline text-blue">
-            other retailer
+              other retailer
             </span>{' '}
             near you.
           </p>
@@ -36,6 +36,13 @@ const Footer = () => {
               </p>
             ))}
           </div>
+        </div>
+
+        
+        <div className="text-center mt-4">
+          <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-lg font-bold animate-pulse">
+            Created by King Dope
+          </p>
         </div>
       </div>
     </footer>
