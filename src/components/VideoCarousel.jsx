@@ -170,6 +170,7 @@ const VideoCarousel = () => {
                   } pointer-events-none`}
                   preload="auto"
                   muted
+                  loop
                   ref={(el) => (videoRef.current[i] = el)}
                   onEnded={() =>
                     i !== 3
